@@ -1,0 +1,92 @@
+@font-face {
+  font-family: DescriptionFont;
+  src: url("../fonts/Modern Serif Eroded.ttf"); }
+body {
+  background-color: #585858; }
+
+#header {
+  background-color: #FF9009;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #888888; }
+  #header #logo {
+    width: 140px;
+    height: 120px; }
+  #header nav {
+    display: inline-block;
+    float: right;
+    font-family: -webkit-pictograph;
+    font-size: 1.5em;
+    color: #118C4E; }
+    #header nav a {
+      margin: 40px;
+      transition: all 0.6s ease; }
+    #header nav a:hover {
+      cursor: pointer;
+      color: white; }
+    #header nav input {
+      background-color: transparent;
+      border-color: #C1E1A6;
+      outline: none;
+      text-align: center;
+      color: #118C4E;
+      border-radius: 2em;
+      font-size: 0.6em;
+      margin-right: 15px; }
+    #header nav #search {
+      margin: 40px 15px 40px 40px; }
+
+#body {
+  margin-top: 200px; }
+  #body form {
+    text-align: center;
+    font-family: DescriptionFont;
+    font-size: 1.5em;
+    color: #FF9009;
+    margin-bottom: 50px; }
+    #body form input {
+      display: block;
+      margin: 0 auto 25px auto;
+      background-color: transparent;
+      border-color: #FF9009;
+      outline: none;
+      text-align: center;
+      color: #118C4E;
+      border-radius: 2em;
+      font-size: 1em; }
+    #body form button {
+      display: block;
+      margin: 0 auto;
+      background-color: transparent;
+      font-family: DescriptionFont;
+      border-radius: 2em;
+      font-size: 1em;
+      color: #FF9009;
+      border-color: #FF9009;
+      padding: 2px 30px;
+      transition: all 0.6s ease;
+      outline: none; }
+    #body form button:hover {
+      cursor: pointer;
+      color: black; }
+    #body form span {
+      transition: all 0.6s ease; }
+    #body form span:hover {
+      color: black; }
+  #body .registration {
+    text-align: center;
+    font-family: DescriptionFont;
+    font-size: 1.15em;
+    color: #FF9009;
+    transition: all 0.6s ease; }
+  #body .registration:hover {
+    cursor: pointer;
+    color: black; }
+
+@media screen and (max-width: 1140px) {
+  #header nav a {
+    margin: 20px; }
+
+  #header nav input {
+    font-size: 0.5em; } }
+
+/*# sourceMappingURL=signup.css.map */

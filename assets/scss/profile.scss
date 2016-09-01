@@ -1,0 +1,137 @@
+@font-face {
+  font-family: DescriptionFont;
+  src: url("../fonts/Modern Serif Eroded.ttf");
+}
+
+body {
+  background-color: #C1E1A6;
+}
+#header {
+  background-color: #FF9009;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #888888;
+  #logo{
+    width: 140px;
+    height: 120px;
+  }
+  nav {
+    display: inline-block;
+    float: right;
+    font-family: -webkit-pictograph;
+    font-size: 1.5em;
+    color: #118C4E;
+    a{
+      margin:40px;
+      transition: all 0.6s ease;
+      cursor: pointer;
+    }
+    a:hover {
+      color:white;
+    }
+    input {
+      background-color: transparent;
+      border-color: #C1E1A6;
+      outline: none;
+      text-align: center;
+      color: #118C4E;
+      border-radius: 2em;
+      font-size: 0.6em;
+      margin-right:15px;
+    }
+    #search {
+      margin:40px 15px 40px 40px;
+    }
+  }
+}
+
+#body {
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #585858;
+  color: #FF9009;
+  font-family: DescriptionFont;
+  box-shadow: 10px 10px 10px 10px #888888;
+  overflow: hidden;
+  #userinfo {
+    text-align: center;
+    margin:30px;
+    p {
+      transition: all 0.6s ease;
+    }
+    p:hover {
+      color:black;
+    }
+    #logout {
+      background-color: transparent;
+      border-color: #FF9009;
+      border-radius: 20px;
+      color: #FF9009;
+      font-family: DescriptionFont;
+      transition: all 0.6s ease;
+      font-size: 0.8em;
+      padding: 2px 10px;
+      outline: none;
+    }
+    #logout:hover {
+      cursor: pointer;
+      color:black;
+    }
+  }
+  #ratedmovies , #watchlist {
+    display: inline-block;
+    float: left;
+    width: 49%;
+    border-top:1px solid;
+
+  }
+  #watchlist {
+    border-right:1px solid #FF9009;
+  }
+  #ratedmovies {
+    margin-left: 15px;
+    border-left: 1px solid;
+  }
+  .yours {
+    margin:30px;
+  }
+  table{
+    width: 50%;
+    tr {
+      td {
+        padding: 5px;
+      }
+      .image {
+        width: 20%;
+        text-align: center;
+        img {
+          width: 100px;
+          height: 65px;
+        }
+        img:hover {
+          transform: scale(2);
+          transition: all 0.8s ease;
+        }
+      }
+      .name {
+        width: 30%;
+        text-align: center;
+      }
+      .year , .userrating {
+        width: 10%;
+        text-align: center;
+      }
+
+    }
+  }
+}
+
+
+
+@media screen and (max-width: 1140px) {
+  #header nav a {
+    margin: 20px;
+  }
+  #header nav input {
+    font-size: 0.5em;
+  }
+}

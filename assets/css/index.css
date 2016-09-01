@@ -1,0 +1,69 @@
+@font-face {
+  font-family: BODYNAME;
+  src: url("../fonts/SHADSER.TTF"); }
+body {
+  background: url("../img/backbody.png");
+  background-size: 100% 100%; }
+
+#header {
+  background-color: #FF9009;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #888888; }
+  #header #logo {
+    width: 140px;
+    height: 120px; }
+  #header nav {
+    display: inline-block;
+    float: right;
+    font-family: -webkit-pictograph;
+    font-size: 1.5em;
+    color: #118C4E; }
+    #header nav a {
+      margin: 40px;
+      transition: all 0.6s ease; }
+    #header nav a:hover {
+      color: white;
+      cursor: pointer; }
+    #header nav input {
+      background-color: transparent;
+      border-color: #C1E1A6;
+      outline: none;
+      text-align: center;
+      color: #118C4E;
+      border-radius: 2em;
+      font-size: 0.6em;
+      margin-right: 15px; }
+    #header nav #search {
+      margin: 40px 15px 40px 40px; }
+
+#body h1 {
+  text-align: center;
+  font-family: BODYNAME;
+  font-size: 200px;
+  color: #FF9009;
+  text-shadow: 15px 15px #ff0000;
+  transition: all 0.6s ease; }
+#body h1:hover {
+  text-shadow: 15px 15px black;
+  cursor: default; }
+#body h5 {
+  margin-top: 20px;
+  text-align: center;
+  font-family: BODYNAME;
+  font-size: 40px;
+  color: #118C4E; }
+
+@media screen and (max-width: 1140px) {
+  #header nav a {
+    margin: 20px; }
+
+  #header nav input {
+    font-size: 0.5em; }
+
+  #body h1 {
+    font-size: 150px; }
+
+  #body h5 {
+    font-size: 30px; } }
+
+/*# sourceMappingURL=index.css.map */

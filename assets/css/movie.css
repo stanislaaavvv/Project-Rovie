@@ -1,0 +1,81 @@
+@font-face {
+  font-family: DescriptionFont;
+  src: url("../fonts/Modern Serif Eroded.ttf"); }
+body {
+  background-color: #C1E1A6; }
+
+#header {
+  background-color: #FF9009;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #888888; }
+  #header #logo {
+    width: 140px;
+    height: 120px; }
+  #header nav {
+    display: inline-block;
+    float: right;
+    font-family: -webkit-pictograph;
+    font-size: 1.5em;
+    color: #118C4E; }
+    #header nav a {
+      margin: 40px;
+      transition: all 0.6s ease; }
+    #header nav a:hover {
+      color: white;
+      cursor: pointer; }
+    #header nav input {
+      background-color: transparent;
+      border-color: #C1E1A6;
+      outline: none;
+      text-align: center;
+      color: #118C4E;
+      border-radius: 2em;
+      font-size: 0.6em;
+      margin-right: 15px; }
+    #header nav #search {
+      margin: 40px 15px 40px 40px; }
+
+#body {
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #585858;
+  color: #FF9009;
+  font-family: DescriptionFont;
+  box-shadow: 10px 10px 10px 10px #888888; }
+  #body #moviecontainer {
+    display: block;
+    overflow: hidden; }
+    #body #moviecontainer #imgcontainer {
+      display: inline-block;
+      float: left;
+      margin: 25px; }
+      #body #moviecontainer #imgcontainer img {
+        width: 180px;
+        height: 250px; }
+    #body #moviecontainer #descriptioncontainer {
+      width: 200px;
+      display: inline-block;
+      float: left; }
+      #body #moviecontainer #descriptioncontainer #rate {
+        direction: rtl; }
+        #body #moviecontainer #descriptioncontainer #rate i {
+          transition: all 0.6s ease;
+          position: relative;
+          right: 105px; }
+        #body #moviecontainer #descriptioncontainer #rate i:hover:before, #body #moviecontainer #descriptioncontainer #rate i:hover ~ i:before {
+          color: black; }
+
+#description {
+  margin: 25px; }
+
+hr {
+  border-color: #FF9009; }
+
+@media screen and (max-width: 1140px) {
+  #header nav a {
+    margin: 20px; }
+
+  #header nav input {
+    font-size: 0.5em; } }
+
+/*# sourceMappingURL=movie.css.map */

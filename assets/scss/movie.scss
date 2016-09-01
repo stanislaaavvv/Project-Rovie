@@ -1,0 +1,97 @@
+@font-face {
+  font-family: DescriptionFont;
+  src: url("../fonts/Modern Serif Eroded.ttf");
+}
+
+body {
+  background-color: #C1E1A6;
+}
+#header {
+  background-color: #FF9009;
+  padding: 5px;
+  box-shadow: 10px 10px 10px #888888;
+  #logo{
+    width: 140px;
+    height: 120px;
+  }
+  nav {
+    display: inline-block;
+    float: right;
+    font-family: -webkit-pictograph;
+    font-size: 1.5em;
+    color: #118C4E;
+    a{
+      margin:40px;
+      transition: all 0.6s ease;
+    }
+    a:hover {
+      color:white;
+      cursor: pointer;
+    }
+    input {
+      background-color: transparent;
+      border-color: #C1E1A6;
+      outline: none;
+      text-align: center;
+      color: #118C4E;
+      border-radius: 2em;
+      font-size: 0.6em;
+      margin-right:15px;
+    }
+    #search {
+      margin:40px 15px 40px 40px;
+    }
+  }
+}
+
+#body {
+  padding: 20px;
+  margin: 15px 0;
+  background-color: #585858;
+  color: #FF9009;
+  font-family: DescriptionFont;
+  box-shadow: 10px 10px 10px 10px #888888;
+  #moviecontainer {
+    display: block;
+    overflow: hidden;
+    #imgcontainer {
+      display: inline-block;
+      float: left;
+      margin: 25px;
+      img {
+        width: 180px;
+        height: 250px;
+      }
+    }
+    #descriptioncontainer {
+      width: 200px;
+      display: inline-block;
+      float: left;
+      #rate {
+        direction: rtl;
+        i{
+          transition: all 0.6s ease;
+          position: relative;
+          right: 105px;
+        }
+        i:hover:before,i:hover ~ i:before{
+          color: black;
+        }
+      }
+    }
+  }
+}
+#description {
+  margin:25px;
+}
+hr {
+  border-color:#FF9009;
+}
+@media screen and (max-width: 1140px) {
+  #header nav a {
+    margin: 20px;
+  }
+  #header nav input {
+    font-size: 0.5em;
+  }
+}
