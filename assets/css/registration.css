@@ -5,7 +5,7 @@ body {
   background-color: #585858; }
 
 #header {
-  background-color: #FF9009;
+  background-color: #a6a900;
   padding: 5px;
   box-shadow: 10px 10px 10px #888888; }
   #header #logo {
@@ -19,7 +19,9 @@ body {
     color: #118C4E; }
     #header nav a {
       margin: 40px;
-      transition: all 0.6s ease; }
+      transition: all 0.6s ease;
+      text-decoration: none;
+      color: #118C4E; }
     #header nav a:hover {
       cursor: pointer;
       color: white; }
@@ -41,16 +43,16 @@ body {
     text-align: center;
     font-family: DescriptionFont;
     font-size: 1.5em;
-    color: #FF9009;
+    color: #a6a900;
     margin-bottom: 50px; }
     #body form input {
       display: block;
       margin: 0 auto 25px auto;
       background-color: transparent;
-      border-color: #FF9009;
+      border-color: #a6a900;
       outline: none;
       text-align: center;
-      color: #FF9009;
+      color: #a6a900;
       border-radius: 2em;
       font-size: 1em; }
     #body form button {
@@ -60,8 +62,8 @@ body {
       font-family: DescriptionFont;
       border-radius: 2em;
       font-size: 0.7em;
-      color: #FF9009;
-      border-color: #FF9009;
+      color: #a6a900;
+      border-color: #a6a900;
       padding: 2px 30px;
       transition: all 0.6s ease;
       outline: none; }

@@ -7,7 +7,7 @@ body {
   background-color: #585858;
 }
 #header {
-  background-color: #FF9009;
+  background-color: #a6a900;
   padding: 5px;
   box-shadow: 10px 10px 10px #888888;
   #logo{
@@ -23,6 +23,8 @@ body {
     a{
       margin:40px;
       transition: all 0.6s ease;
+      text-decoration: none;
+      color: #118C4E;
     }
     a:hover {
       cursor: pointer;
@@ -50,13 +52,13 @@ body {
     text-align: center;
     font-family: DescriptionFont;
     font-size: 1.5em;
-    color: #FF9009;
+    color: #a6a900;
     margin-bottom:50px;
     input {
       display: block;
       margin: 0 auto 25px auto;
       background-color: transparent;
-      border-color: #FF9009;
+      border-color: #a6a900;
       outline: none;
       text-align: center;
       color: #118C4E;
@@ -73,8 +75,8 @@ body {
       font-family: DescriptionFont;
       border-radius: 2em;
       font-size: 1em;
-      color: #FF9009;
-      border-color: #FF9009;
+      color: #a6a900;
+      border-color: #a6a900;
       padding:2px 30px;
       transition: all 0.6s ease;
       outline: none;
@@ -97,7 +99,7 @@ body {
     text-align: center;
     font-family: DescriptionFont;
     font-size: 1.15em;
-    color: #FF9009;
+    color: #a6a900;
     transition: all 0.6s ease;
   }
   .registration:hover {
